@@ -26,7 +26,7 @@ class Book(models.Model):
     available = models.BooleanField(default=True)
 
     def __str__(self):
-        return self.title
+        return self.marka
 
     # Definiujemy metody instancji modelu:
     def is_popular(self):
